@@ -1,0 +1,162 @@
+.main {
+  width: 80vw;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  animation: animate 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 100%;
+  height: 15rem;
+  width: 15rem;
+  margin-top: 20px;
+}
+
+.image {
+  position: relative;
+  padding: 0 1rem;
+}
+
+.details {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #04aa6d;
+}
+
+.login-btn:hover {
+  background-color: #04a06d;
+}
+
+.checkbox {
+  display: flex;
+  place-items: center;
+  gap: 0.5rem;
+}
+
+.cancel-div {
+  padding: 1rem;
+  background-color: #f1f1f1;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #cccccc;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cancel-button {
+  /* background-color: #3e3838; */
+  background-color: #f44336;
+}
+
+.cancel-button:hover {
+  /* background-color: #2a2a2a; */
+  background-color: #04aa6d;
+}
+
+.forget {
+  color: black;
+  text-wrap: nowrap;
+}
+
+.forget a {
+  text-wrap: nowrap;
+  text-decoration: underline;
+  color: black;
+}
+
+.forget a:hover {
+  color: #04aa6d;
+}
+
+.x-button {
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  background: transparent;
+  color: black;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 0px 18px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+}
+
+.x-button:hover {
+  background: rgb(199, 193, 193);
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px 10px;
+  margin: 0;
+  background: #fff;
+  color: #222;
+  font-size: 1rem;
+}
+
+.logged-in {
+  font-weight: normal !important;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* .checkbox input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #cccccc;
+  border-radius: 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* 
+.checkbox input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.checkbox input[type="checkbox"]:checked::before {
+  content: "✔"; 
+  font-size: 16px;
+  color: white; 
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
